@@ -1,0 +1,37 @@
+
+
+.arkapalan {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 230px 1fr; /* 1fr sağdaki bölümün tüm kalan alanı kaplamasını sağlar */
+    background-color: #d2d2d2;
+  }
+  
+  .navbar {
+    display: flex;
+    height: 100vh;
+    background-color: #d2d2d2;
+    flex-direction: column;
+    align-items: center;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+  
+  .menu {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    
+  }
+  
+  .right-page {
+    background-color: #9471e5;
+    padding: 20px;
+    overflow-y: auto; /* İçerik aşağı doğru taşarsa kaydırma çubuğu göster */
+  }
+
+ 
+  

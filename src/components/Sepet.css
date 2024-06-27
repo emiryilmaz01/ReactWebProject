@@ -1,9 +1,12 @@
-.app{
+.Sepet{
     display: flex;
     height: 100vh;
-    width: 100%;
-    flex-direction: column;
+    width: 679%;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     background-color: #c2a4d6;
+}
+.ortala{
+    margin-left: 40;
 }
